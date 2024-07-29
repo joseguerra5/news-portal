@@ -6,7 +6,7 @@ header{
   display: grid;
   grid-auto-flow: column;
   align-items: center;
-
+  padding: 26px;
   justify-content: space-between;
 }
 
@@ -28,9 +28,9 @@ nav{
   display: grid;
   grid-auto-flow: column;
   align-items: center;
-
+  padding: 14px;
   justify-content: space-between;
-  margin: 14px 0px;
+
 }
 
 nav a{
