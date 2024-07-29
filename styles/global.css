@@ -20,13 +20,17 @@
   --text-Paragraph: 400 14px/160% var(--font-family);
 }
 body{
-
+  background-color: var(--bg-color);
 }
 a{
   text-decoration: none;
-  color: inherit;
 }
 a:hover{
   color: var(--brand-color-light);
+}
 
+.container{
+  display: grid;
+  padding-inline: 32px;
+  margin-inline: auto;
 }

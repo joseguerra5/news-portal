@@ -1,0 +1,42 @@
+.header{
+  
+}
+
+header{
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+header a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-family);
+  font: var(--text-h2);
+  color: var(--text-color-primary);
+}
+
+#logo{
+  font: var(--text-h1);
+  color: var(--brand-color-light);
+}
+
+nav{
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+
+  justify-content: space-between;
+  margin: 14px 0px;
+}
+
+nav a{
+  display: flex;
+  align-items: center;
+  font-family: var(--font-family);
+  font: var(--text-span);
+  color: var(--text-color-secondary);
+}
