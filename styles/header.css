@@ -1,6 +1,3 @@
-.header{
-  
-}
 
 header{
   display: grid;
@@ -25,17 +22,12 @@ header a {
 }
 
 nav{
-  display: grid;
-  grid-auto-flow: column;
-  align-items: center;
-  padding: 14px;
-  justify-content: space-between;
+  display: flex;
+
 
 }
 
 nav a{
-  display: flex;
-  align-items: center;
   font-family: var(--font-family);
   font: var(--text-span);
   color: var(--text-color-secondary);
