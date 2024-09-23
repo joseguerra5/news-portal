@@ -1,10 +1,14 @@
-
-header{
+header {
   display: grid;
   grid-auto-flow: column;
   align-items: center;
-  padding: 26px;
+  margin-block: 1rem;
   justify-content: space-between;
+}
+
+.nav-header {
+  border-block: 1px solid var(--text-color-secondary);
+  padding: 1rem;
 }
 
 header a {
@@ -12,23 +16,48 @@ header a {
   align-items: center;
   gap: 8px;
   font-family: var(--font-family);
-  font: var(--text-h2);
+  font: var(--text-h3);
   color: var(--text-color-primary);
+
+  & img {
+    width: 1rem;
+  }
 }
 
-#logo{
-  font: var(--text-h1);
+#logo {
+  font: var(--text-h3);
   color: var(--brand-color-light);
 }
 
-nav{
+nav {
   display: flex;
-
 
 }
 
-nav a{
+nav a {
   font-family: var(--font-family);
   font: var(--text-span);
   color: var(--text-color-secondary);
+}
+
+@media (width >=80em) {
+  .nav-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #logo {
+    font: var(--text-h1);
+    color: var(--brand-color-light);
+  }
+
+  header {
+    & a {
+      font: var(--text-h2);
+      & img {
+        width: 1.5rem;
+      }
+    }
+  }
+
 }

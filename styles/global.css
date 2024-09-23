@@ -50,6 +50,7 @@ img{
   color: var(--text-color-primary);
   font: var(--text-Paragraph);
   font-size: 10px;
-  padding: 4px;
+  padding: 4px 8px;
+  margin-bottom: 4px;
   text-transform: uppercase;
 }
